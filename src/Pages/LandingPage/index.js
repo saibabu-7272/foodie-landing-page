@@ -35,7 +35,7 @@ const LandingPage = () => {
         <Section />
         <h1>Categories</h1>
         <ul className="categories-list">
-          {categoriesData.map(category => (<CategoryCard data={category} />))}
+          {categoriesData.map(category => (<CategoryCard data={category} key={category.id} />))}
         </ul>
     </div>
     )
