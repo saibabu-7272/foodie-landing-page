@@ -34,7 +34,7 @@ const LandingPage = () => {
     <div className="landing-page">
         <Section />
         <h1>Categories</h1>
-        <ul>
+        <ul className="categories-list">
           {categoriesData.map(category => (<CategoryCard data={category} />))}
         </ul>
     </div>
