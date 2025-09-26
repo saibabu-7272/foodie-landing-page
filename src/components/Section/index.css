@@ -1,0 +1,43 @@
+.main-section{
+    width:100%;
+    background-image: url("../../assets/main-section-background.jpg");
+    background-size: cover;
+    height:400px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.tag{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    padding:5px;
+    width:fit-content;
+    font-weight: bold;
+}
+.section-heading{
+    font-size: 30px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.tags-container{
+    display: flex;
+    gap:10px
+}
+
+.tag-box{
+    border-radius: 30px;
+    background-color: #b8b8b87e;
+    width:100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+i{
+    font-size:20px;
+}

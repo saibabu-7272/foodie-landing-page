@@ -1,0 +1,22 @@
+.landing-page{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:100px;
+}
+
+.category-card{
+    background-image: linear-gradient(#fff,#f1dca1);
+    border-radius: 10px;
+    width:200px;
+    height:250px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.category-card-image{
+    height:200px
+}
+.category-card-title{
+    font-weight: bold;
+    font-size: 18px;
+}
